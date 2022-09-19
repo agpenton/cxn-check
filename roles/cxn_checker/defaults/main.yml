@@ -1,0 +1,19 @@
+---
+# defaults file for cxn-checker
+addresses:
+  - hostname: github.com
+  - hostname: gmail.com
+    port: 443
+  - hostname: stocardapp.com
+    port: 443
+  - hostname: google.com
+    port: 1443
+  - hostname: invalid.address
+  - hostname: stocardapp.com
+    port: 'invalid-port'
+  - hostname: klarna.com
+  - hostname: apple.com
+    port: 443
+  - hostname: klarna.com
+    port: 443
+
